@@ -21,9 +21,9 @@ zinit ice as"command" from"gh-r" \
 zinit light starship/starship
 
 # plugins
-zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
 zinit light Aloxaf/fzf-tab
 
 # snipits
@@ -65,5 +65,5 @@ alias ls='ls --color'
 
 # Shell integerations
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-eval "$(zoxide init --cmd cd zsh)"
+# eval "$(zoxide init --cmd cd zsh)"
 eval "$(~/.local/bin/mise activate zsh)"

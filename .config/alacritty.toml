@@ -59,7 +59,7 @@ TERM = "xterm-256color"
 size = 18
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "FiraCode Nerd Font"
 style = "Bold"
 
 [font.glyph_offset]
@@ -67,10 +67,10 @@ x = 0
 y = 0
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "FiraCode Nerd Font"
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "FiraCode Nerd Font"
 style = "Regular"
 
 [font.offset]
@@ -94,11 +94,12 @@ program = "/bin/zsh"
 decorations = "full"
 dynamic_title = true
 startup_mode = "Maximized"
+dynamic_padding = true
 
 [window.dimensions]
 columns = 160
 lines = 80
 
 [window.padding]
-x = 4
-y = 4
+x = 20
+y = 20

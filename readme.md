@@ -2,7 +2,7 @@ This is a dot file managed by GNU stow
 
 - [GNU stow](https://www.gnu.org/software/stow/)
 
-run `stow .` from within the repo.
+run `stow --dotfiles . --target ~` from within the repo.
 
 Requirements:
 
