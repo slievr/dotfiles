@@ -67,3 +67,4 @@ alias ls='ls --color'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # eval "$(zoxide init --cmd cd zsh)"
 eval "$(~/.local/bin/mise activate zsh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
