@@ -5,7 +5,7 @@ declare -a fonts=(
     # CodeNewRoman
     # DroidSansMono
     FiraCode
-    # FiraMono
+    FiraMono
     # Go-Mono
     # Hack
     # Hermit
