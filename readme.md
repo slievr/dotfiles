@@ -50,11 +50,3 @@ stow --dotfiles -v -d ~/proj/dotfiles -t ~ .
 - **Fonts**: Run `scripts/download_nerd_fonts.sh` to install Fira Code Nerd Font.
 - **Tools**: Run `mise install` to install managed tools (like `zoxide`).
 
-## Maintenance
-
-After making local configuration changes, remember to commit and push:
-```bash
-git add .
-git commit -m "Update settings"
-git push origin main
-```
